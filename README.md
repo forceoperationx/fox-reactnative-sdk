@@ -81,7 +81,7 @@ dependencies {
 
 <div id="android_permission"></div>
 
-##### 1.3.1 パーミッション
+#### 1.3.1 パーミッション
 
 F.O.X SDKでは下記3つのパーミッションを利用します。
 &lt;Manifest&gt;タグ内に次のパーミッションの設定を追加します。
