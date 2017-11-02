@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    publishNonDefault false
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+group = 'co.cyberz.fox.support'
+def artifact = 'track-reactnative'
+version = '1.0.0'
+description = 'F.O.X Android SDK React Native Plugin'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided "com.facebook.react:react-native:+"  // From node_modules
+    provided 'co.cyberz.fox:track-core:4.3.0'
+}
+
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "file:${projectDir}/mavenRepo")
+        pom.project {
+            licenses {
+                license {
+                    name "Copyright © CyberZ, inc. All Rights Reserved."
+                }
+            }
+        }
+        pom.artifactId = "${artifact}"
+    }
+}
+
+task removeJar(type:Delete) {
+    delete fileTree(dir:'build/outputs/jar/', include:("*"))
+}
+
+
+task copyJar(type:Copy, dependsOn:removeJar) {
+    from('build/intermediates/bundles/release/')
+    into('build/outputs/jar/')
+    include('classes.jar')
+    rename('classes.jar', "FOX_Android_SDK_Support_ReactNative_${version}.jar")
+}
+
+task assembleReleaseJar(dependsOn:copyJar) << {
+    println("assemble jar : " + copyJar.destinationDir)
+}

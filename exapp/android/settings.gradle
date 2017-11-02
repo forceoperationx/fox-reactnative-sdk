@@ -1,0 +1,5 @@
+rootProject.name = 'exapp'
+
+include ':app', ':supportReactNative'
+
+project(":supportReactNative").projectDir = new File("../../android/supportReactNative")
