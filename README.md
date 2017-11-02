@@ -68,10 +68,14 @@ repositories {
 }
 
 dependencies {
-    compile 'co.cyberz.fox:track-core:4.3.0'
-    compile 'co.cyberz.fox.support:track-reactnative:1.0.0'
+    compile 'co.cyberz.fox:track-core:X.X.X'
+    compile 'co.cyberz.fox.support:track-reactnative:X.X.X'
 }  
 ```
+
+> ※ `co.cyberz.fox:track-core:`のバージョンは4.3.0以上を指定してください。4.3.0未満はサポートしておりません。
+
+> ※ `co.cyberz.fox.support:track-reactnative:`のバージョンはリリースページからバージョンを選択してください。
 
 **【 jarファイルによる導入 】**
 
