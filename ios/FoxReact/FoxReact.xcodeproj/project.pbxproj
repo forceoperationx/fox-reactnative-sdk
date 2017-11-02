@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876483884055CE331590D04E /* libPods-abs_exapp-FoxReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B05D90D5C86B318381C1E2C /* libPods-abs_exapp-FoxReact.a */; };
+		B81359831F9DDF190098C238 /* CYZFoxAppDelegateSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B81359821F9DDF180098C238 /* CYZFoxAppDelegateSwizzling.m */; };
+		B82222AA1F97238500521BC8 /* CYZFoxReactModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B82222A91F97238500521BC8 /* CYZFoxReactModule.m */; };
+		B82222AB1F97238500521BC8 /* CYZFoxReactModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B82222A81F97238500521BC8 /* CYZFoxReactModule.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B82222EE1F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		B82222F01F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		B82222F21F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		B82222F41F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		B82222F61F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		B82222F81F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		B82222FA1F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		B82222FC1F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		B82222FE1F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		B82223001F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		B82223021F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		B82223041F972D1100521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		B82223061F972D3A00521BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B82222A31F97238500521BC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B82222AB1F97238500521BC8 /* CYZFoxReactModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B05D90D5C86B318381C1E2C /* libPods-abs_exapp-FoxReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-abs_exapp-FoxReact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0FA19CAA673F09C80646E2 /* Pods-abs_exapp-FoxReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abs_exapp-FoxReact.release.xcconfig"; path = "../../exapp/ios/Pods/Target Support Files/Pods-abs_exapp-FoxReact/Pods-abs_exapp-FoxReact.release.xcconfig"; sourceTree = "<group>"; };
+		527F39A1E29D277D793EC73C /* Pods-abs_exapp-FoxReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abs_exapp-FoxReact.debug.xcconfig"; path = "../../exapp/ios/Pods/Target Support Files/Pods-abs_exapp-FoxReact/Pods-abs_exapp-FoxReact.debug.xcconfig"; sourceTree = "<group>"; };
+		B81359821F9DDF180098C238 /* CYZFoxAppDelegateSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYZFoxAppDelegateSwizzling.m; sourceTree = "<group>"; };
+		B82222A51F97238500521BC8 /* libFoxReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFoxReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82222A81F97238500521BC8 /* CYZFoxReactModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYZFoxReactModule.h; sourceTree = "<group>"; };
+		B82222A91F97238500521BC8 /* CYZFoxReactModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYZFoxReactModule.m; sourceTree = "<group>"; };
+		B82222DF1F972D1000521BC8 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../../exapp/node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		F29101A975E6569D77AC0A69 /* libPods-FoxReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoxReact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B82222A21F97238500521BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876483884055CE331590D04E /* libPods-abs_exapp-FoxReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77168675BB746A6988C3A131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527F39A1E29D277D793EC73C /* Pods-abs_exapp-FoxReact.debug.xcconfig */,
+				2B0FA19CAA673F09C80646E2 /* Pods-abs_exapp-FoxReact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81263EAF16D0CD0A235DD0F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29101A975E6569D77AC0A69 /* libPods-FoxReact.a */,
+				2B05D90D5C86B318381C1E2C /* libPods-abs_exapp-FoxReact.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B822229C1F97238500521BC8 = {
+			isa = PBXGroup;
+			children = (
+				B82222DF1F972D1000521BC8 /* React.xcodeproj */,
+				B82222A71F97238500521BC8 /* FoxReact */,
+				B82222A61F97238500521BC8 /* Products */,
+				77168675BB746A6988C3A131 /* Pods */,
+				81263EAF16D0CD0A235DD0F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B82222A61F97238500521BC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82222A51F97238500521BC8 /* libFoxReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82222A71F97238500521BC8 /* FoxReact */ = {
+			isa = PBXGroup;
+			children = (
+				B81359821F9DDF180098C238 /* CYZFoxAppDelegateSwizzling.m */,
+				B82222A81F97238500521BC8 /* CYZFoxReactModule.h */,
+				B82222A91F97238500521BC8 /* CYZFoxReactModule.m */,
+			);
+			path = FoxReact;
+			sourceTree = "<group>";
+		};
+		B82222E01F972D1000521BC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82222EF1F972D1100521BC8 /* libReact.a */,
+				B82222F11F972D1100521BC8 /* libReact.a */,
+				B82222F31F972D1100521BC8 /* libyoga.a */,
+				B82222F51F972D1100521BC8 /* libyoga.a */,
+				B82222F71F972D1100521BC8 /* libcxxreact.a */,
+				B82222F91F972D1100521BC8 /* libcxxreact.a */,
+				B82222FB1F972D1100521BC8 /* libjschelpers.a */,
+				B82222FD1F972D1100521BC8 /* libjschelpers.a */,
+				B82222FF1F972D1100521BC8 /* libthird-party.a */,
+				B82223011F972D1100521BC8 /* libthird-party.a */,
+				B82223031F972D1100521BC8 /* libdouble-conversion.a */,
+				B82223051F972D1100521BC8 /* libdouble-conversion.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B82222A41F97238500521BC8 /* FoxReact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82222AE1F97238500521BC8 /* Build configuration list for PBXNativeTarget "FoxReact" */;
+			buildPhases = (
+				1F912B51DB65791968F97BBE /* [CP] Check Pods Manifest.lock */,
+				B82222A11F97238500521BC8 /* Sources */,
+				B82222A21F97238500521BC8 /* Frameworks */,
+				B82222A31F97238500521BC8 /* CopyFiles */,
+				CEEE484F2D37761E52E15CC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82223071F972D3A00521BC8 /* PBXTargetDependency */,
+			);
+			name = FoxReact;
+			productName = FoxReact;
+			productReference = B82222A51F97238500521BC8 /* libFoxReact.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B822229D1F97238500521BC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = cyberz;
+				TargetAttributes = {
+					B82222A41F97238500521BC8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B82222A01F97238500521BC8 /* Build configuration list for PBXProject "FoxReact" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B822229C1F97238500521BC8;
+			productRefGroup = B82222A61F97238500521BC8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B82222E01F972D1000521BC8 /* Products */;
+					ProjectRef = B82222DF1F972D1000521BC8 /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B82222A41F97238500521BC8 /* FoxReact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B82222EF1F972D1100521BC8 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = B82222EE1F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222F11F972D1100521BC8 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = B82222F01F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222F31F972D1100521BC8 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = B82222F21F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222F51F972D1100521BC8 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = B82222F41F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222F71F972D1100521BC8 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = B82222F61F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222F91F972D1100521BC8 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = B82222F81F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222FB1F972D1100521BC8 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = B82222FA1F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222FD1F972D1100521BC8 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = B82222FC1F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82222FF1F972D1100521BC8 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B82222FE1F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82223011F972D1100521BC8 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B82223001F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82223031F972D1100521BC8 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B82223021F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82223051F972D1100521BC8 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B82223041F972D1100521BC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F912B51DB65791968F97BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEEE484F2D37761E52E15CC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../exapp/ios/Pods/Target Support Files/Pods-abs_exapp-FoxReact/Pods-abs_exapp-FoxReact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B82222A11F97238500521BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82222AA1F97238500521BC8 /* CYZFoxReactModule.m in Sources */,
+				B81359831F9DDF190098C238 /* CYZFoxAppDelegateSwizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B82223071F972D3A00521BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = B82223061F972D3A00521BC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B82222AC1F97238500521BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../exapp/node_modules/react-native/React/Base";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B82222AD1F97238500521BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../exapp/node_modules/react-native/React/Base";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B82222AF1F97238500521BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527F39A1E29D277D793EC73C /* Pods-abs_exapp-FoxReact.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUP2JGEFH3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B82222B01F97238500521BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0FA19CAA673F09C80646E2 /* Pods-abs_exapp-FoxReact.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUP2JGEFH3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82222A01F97238500521BC8 /* Build configuration list for PBXProject "FoxReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82222AC1F97238500521BC8 /* Debug */,
+				B82222AD1F97238500521BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82222AE1F97238500521BC8 /* Build configuration list for PBXNativeTarget "FoxReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82222AF1F97238500521BC8 /* Debug */,
+				B82222B01F97238500521BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B822229D1F97238500521BC8 /* Project object */;
+}

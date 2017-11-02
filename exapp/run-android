@@ -1,0 +1,19 @@
+##########################################################
+# React-Native For android
+# ** Run Command **
+# これを実行しておけばUSBにつながってる端末に最新をデプロイまでするぉ
+##########################################################
+
+source ~/.bashrc
+if [ ! -e "./android/app/src/main/assets" ]; then
+  mkdir ./android/app/src/main/assets
+fi
+
+# Uninstall Sample App
+adb uninstall com.exapp
+
+# 修正されたJSをネイティブプロジェクトにセットする
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+# 実行
+react-native run-android
