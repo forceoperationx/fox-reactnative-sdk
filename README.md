@@ -37,20 +37,10 @@ zipファイルの展開後、`js`ディレクトリ内のjsファイルを導�
 <div id="install_ios"></div>
 
 #### 1.2 iOS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**【 libraryファイルによる導入 】**
+共通手順でダウンロードしたSDKのzipファイルに同梱されている iOS SDK libraryファイル全てを導入先となるiOSプロジェクトのlibrary/framework search pathにコピーし、xcodeでlinkします。
+* `libFoxReact.a`
+* `CYZFox.framework`
 
 
 <div id="install_android"></div>
@@ -126,13 +116,13 @@ ProGuard を利用してアプリケーションの難読化を行う際は F
 
 F.O.Xのライブラリを呼び出す際は必ず`fox.js`をimportします。以降、サンプル内ではCYZFoxと定義します。
 
-```java
+```js
 // fox.jsへのパスを通します
 import CYZFox from './fox.js';
 
 ...
 
-render() {
+componentDidMount() {
 ...
   const config = {
       ios : {
@@ -169,7 +159,7 @@ render() {
 アプリの初回起動のインストール計測を実装することで、広告の効果測定を行うことができます。<br>
 以下のコードをアプリの起動時に必ず呼ばれる箇所に効果測定用の処理を追加します。
 
-```java
+```js
 // fox.jsへのパスを通します
 import CYZFox from './fox.js';
 
@@ -264,7 +254,7 @@ AndroidManifest.xmlのトップActivity (アプリ内の初めに呼ばれるAct
 
 **【 実装例 】**
 
-```java
+```js
 const event = {
     ios : {
       eventName : "iOSチュートリアル突破",
@@ -285,7 +275,7 @@ CYZFox.trackEvent(event);
 
 **【 実装例 】**
 
-```java
+```js
 const event = {
     ios : {
       eventName : "ios-purchase",
