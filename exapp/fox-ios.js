@@ -4,7 +4,6 @@ const nativeFox = NativeModules.CYZFoxReact;
 var FoxIos = {};
 
 FoxIos.activate = function(foxConfig) {
-    console.log("FoxIos.activate");
     nativeFox.activate(foxConfig);
 };
 

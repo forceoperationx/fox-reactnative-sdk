@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-import CZYFox from './CYZFox.js';
+import CZYFox from './fox.js';
 
 
 const instructions = Platform.select({

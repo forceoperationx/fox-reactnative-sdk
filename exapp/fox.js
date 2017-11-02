@@ -20,7 +20,7 @@ CYZFox.activate = function(foxConfig) {
     } else if (Platform.OS === 'android') {
         FoxAndroid.activate(_foxConfig);
     } else {
-        console.log(`Unsupported platform : ${Platform.OS}`);
+        console.log(`[RCT-FOX] Unsupported platform : ${Platform.OS}`);
     }
 };
 
@@ -32,7 +32,7 @@ CYZFox.trackInstall = function(foxTrackOption) {
     } else if (Platform.OS === 'android') {
         FoxAndroid.trackInstall(_foxTrackOption);
     } else {
-        console.log(`Unsupported platform : ${Platform.OS}`);
+        console.log(`[RCT-FOX] Unsupported platform : ${Platform.OS}`);
     }
 };
 
@@ -43,7 +43,7 @@ CYZFox.trackSession = function() {
     } else if (Platform.OS === 'android') {
         FoxAndroid.trackSession();
     } else {
-        console.log(`Unsupported platform : ${Platform.OS}`);
+        console.log(`[RCT-FOX] Unsupported platform : ${Platform.OS}`);
     }
 };
 
@@ -55,7 +55,7 @@ CYZFox.trackEvent = function(foxEvent) {
     } else if (Platform.OS === 'android') {
         FoxAndroid.trackEvent(_foxEvent);
     } else {
-        console.log(`Unsupported platform : ${Platform.OS}`);
+        console.log(`[RCT-FOX] Unsupported platform : ${Platform.OS}`);
     }
 };
 
@@ -67,7 +67,7 @@ CYZFox.setUserInfo = function(userInfo) {
     } else if (Platform.OS === 'android') {
         FoxAndroid.setUserInfo(_userInfo);
     } else {
-        console.log(`Unsupported platform : ${Platform.OS}`);
+        console.log(`[RCT-FOX] Unsupported platform : ${Platform.OS}`);
     }
 };
 
@@ -78,7 +78,7 @@ CYZFox.getUserInfo = function(userInfoCallback) {
     } else if (Platform.OS === 'android') {
         FoxAndroid.getUserInfo(userInfoCallback);
     } else {
-        console.log(`Unsupported platform : ${Platform.OS}`);
+        console.log(`[RCT-FOX] Unsupported platform : ${Platform.OS}`);
     }
 };
 
