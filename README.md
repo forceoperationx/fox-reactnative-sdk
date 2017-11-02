@@ -102,7 +102,7 @@ WRITE_EXTERNAL_STORAGE ※1|Dangerous|任意|ストレージを利用した重�
 
 <div id="android_proguard"></div>
 
-##### 1.3.2 ProGuardを利用する場合
+#### 1.3.2 ProGuardを利用する場合
 
 ProGuard を利用してアプリケーションの難読化を行う際は F.O.X SDK のメソッドが対象とならないよう、以下の設定 を追加してください。
 
