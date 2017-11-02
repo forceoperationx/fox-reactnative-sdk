@@ -38,8 +38,8 @@ zipファイルの展開後、`js`ディレクトリ内のjsファイルを導�
 
 #### 1.2 iOS
 **【 libraryファイルによる導入 】**
-共通手順でダウンロードしたSDKのzipファイルに同梱されている iOS SDK libraryファイル全てを導入先となるiOSプロジェクトのlibrary/framework search pathにコピーします。
-* `foxReact.jar`
+共通手順でダウンロードしたSDKのzipファイルに同梱されている iOS SDK libraryファイル全てを導入先となるiOSプロジェクトのlibrary/framework search pathにコピーし、xcodeでlinkします。
+* `libFoxReact.a`
 * `CYZFox.framework`
 
 
