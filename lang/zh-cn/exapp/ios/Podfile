@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source "https://github.com/cyber-z/public-fox-ios-sdk.git"
+workspace 'exapp'
+
+abstract_target 'abs_exapp' do
+
+    # Pods for FoxReact
+    pod "CYZFox", "4.2.2"
+
+    target 'FoxReact' do
+      # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+      # use_frameworks!
+      project '../../ios/FoxReact/FoxReact'
+
+    end
+
+    target 'exapp' do
+      # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+      # use_frameworks!
+
+      # Pods for exapp
+      target 'exappTests' do
+        inherit! :search_paths
+        # Pods for testing
+      end
+    end
+
+end
+
+target 'exapp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for exapp-tvOS
+
+  target 'exapp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
