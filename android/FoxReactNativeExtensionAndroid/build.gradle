@@ -1,14 +1,39 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
 
+group = 'co.cyberz.fox.support'
+version = '1.0.0'
+def artifact = 'track-reactnative'
+description = 'F.O.X Android SDK React Native Plugin'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        google()
+    }
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+}
+
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.1"
     publishNonDefault false
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }
@@ -21,15 +46,16 @@ android {
     }
 }
 
-group = 'co.cyberz.fox.support'
-def artifact = 'track-reactnative'
-version = '1.0.0'
-description = 'F.O.X Android SDK React Native Plugin'
+repositories {
+    maven {
+        url "https://github.com/cyber-z/public-fox-android-sdk/raw/master/mavenRepo"
+    }
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     provided "com.facebook.react:react-native:+"  // From node_modules
-    provided 'co.cyberz.fox:track-core:4.3.0'
+    provided 'co.cyberz.fox:track-core:4.4.1'
 }
 
 uploadArchives {
